@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aNMmv+ecATtza99y/DkSKTeCVVgXQHBverX7W8d40TkzYpPOLtjvXotLc4k2luAbK1ADP9xOUhSrNMwdUD31eA==",
+  "dgSpecHash": "KTkTE+HUtLTnuIExJDfi6ZcG1ToQ9llPjlWdPcb7yHWafmJCsWKj6ehmYgByJXo0kug0xaUgwZHu+ntTrD+6+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiProduct\\ApiProduct.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
