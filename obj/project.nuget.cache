@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KTkTE+HUtLTnuIExJDfi6ZcG1ToQ9llPjlWdPcb7yHWafmJCsWKj6ehmYgByJXo0kug0xaUgwZHu+ntTrD+6+w==",
+  "dgSpecHash": "B88k4cnHf11c66l3P0oAJvJY4BxoOte8FP1YnMjsjDR+gjKwbxvKGRPmvGygwlsViOgk4pqxGqkAqAxHRGkxmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiProduct\\ApiProduct.csproj",
   "expectedPackageFiles": [
@@ -39,8 +39,9 @@
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
