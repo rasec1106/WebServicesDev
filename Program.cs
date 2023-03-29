@@ -1,3 +1,5 @@
+using ApiProduct.DbContexts;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+var connectionString = builder.Configuration.GetConnectionString("ProductDB");
+builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(connectionString));
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

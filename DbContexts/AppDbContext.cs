@@ -21,6 +21,8 @@ namespace ApiProduct.DbContexts
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
+            var connectionString = configuration.GetConnectionString("ProductDB");
+            optionsBuilder.UseSqlServer(connectionString);
         }
     }
 }
