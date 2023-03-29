@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "53yimxrqACaSGkGraA2t7KgzamMRAOnJTe1mEtwTQSMFq9QKzisWpVVLh75aegzbqn2CSXMom5vf4DgUWA3lHA==",
+  "dgSpecHash": "NJT2AG2TgJ9D5bb0VpwWz+6HlJQFfXVyMj17BZrJskyiN3GByvlpWf990gacsbyNx+mMLvs42PhqAhbNZm3UPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiProduct\\ApiProduct.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
