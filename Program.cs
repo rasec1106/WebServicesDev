@@ -1,4 +1,6 @@
+using ApiProduct;
 using ApiProduct.DbContexts;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// Register database sql connection
 var connectionString = builder.Configuration.GetConnectionString("ProductDB");
 builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(connectionString));
+
+// Register automapper
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
