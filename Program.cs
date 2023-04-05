@@ -19,6 +19,8 @@ builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(connec
 
 // Register automapper
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
