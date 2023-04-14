@@ -94,6 +94,7 @@ namespace ApiProduct.Controllers
         }
 
         [HttpDelete]
+        // even of we don't define the Route decorator, .net is clever enough to understand that the id is passed as a path variable
         public async Task<object> Delete(int id)
         {
             try
