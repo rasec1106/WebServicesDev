@@ -65,9 +65,15 @@ namespace ApiProduct.Repository
             return this.mapper.Map<List<ProductDto>>(products);
         }
 
-        public Task<ProductDto> UpdateProduct(ProductDto productDto)
+        public async Task<ProductDto> UpdateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            // We could use "var" ==> this reserved word is used to infere types ... the compiler guesses which type of variable it'll be
+            // var product = this.mapper.Map<Product>(productDto);
+            Product product = this.mapper.Map<Product>(productDto);
+            this.dbContext.Update(product);
+            await this.dbContext.SaveChangesAsync();
+            return productDto;
+            //return this.mapper.Map<ProductDto>(product); // could be also this way, but its less effective
         }
     }
 }
