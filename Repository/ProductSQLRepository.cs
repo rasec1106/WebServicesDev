@@ -17,9 +17,19 @@ namespace ApiProduct.Repository
             this.mapper = mapper;
         }
 
-        public Task<ProductDto> CreateProduct(ProductDto productDto)
+        public async Task<ProductDto> CreateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            // transform it into Product
+            Product product = this.mapper.Map<Product>(productDto);
+            // add in memory
+            this.dbContext.Add(product);
+            
+            // save in database
+            await this.dbContext.SaveChangesAsync();
+            /*
+             * When we make the save, automatically the framework assigns the id to that variable
+             */
+            return this.mapper.Map<ProductDto>(product);
         }
 
         public async Task<bool> DeleteProduct(int productId)
