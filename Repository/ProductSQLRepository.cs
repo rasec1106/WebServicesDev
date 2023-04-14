@@ -22,9 +22,25 @@ namespace ApiProduct.Repository
             throw new NotImplementedException();
         }
 
-        public Task<bool> DeleteProduct(int productId)
+        public async Task<bool> DeleteProduct(int productId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Product? product = await this.dbContext.Products.FirstOrDefaultAsync(product => product.ProductId == productId);
+                if (product == null)
+                {
+                    return false;
+                }
+                // We remove the product from RAM memory
+                this.dbContext.Products.Remove(product);
+                // To persist the changes we need to save the changes
+                await this.dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public async Task<ProductDto> GetProductById(int productId)
