@@ -19,8 +19,8 @@ builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(connec
 
 // Register automapper
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
-builder.Services.AddSingleton(mapper);
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddSingleton(mapper); // using singleton patron ... to let it live in memory!!!
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // this line is needed... read the documentation
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
