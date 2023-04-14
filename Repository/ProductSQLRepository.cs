@@ -27,9 +27,10 @@ namespace ApiProduct.Repository
             throw new NotImplementedException();
         }
 
-        public Task<ProductDto> GetProductById(int productId)
+        public async Task<ProductDto> GetProductById(int productId)
         {
-            throw new NotImplementedException();
+            Product? product = await this.dbContext.Products.Where(product => product.ProductId == productId).FirstOrDefaultAsync();
+            return this.mapper.Map<ProductDto>(product);
         }
 
         public async Task<IEnumerable<ProductDto>> GetProducts()
